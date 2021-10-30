@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-// import Counter from './Counter'
 import CounterHooks from './CounterHooks'
 
 //the default themeContext value is 'red'
