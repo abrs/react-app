@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Counter from './Counter'
+// import Counter from './Counter'
 import CounterHooks from './CounterHooks'
 
 //the default themeContext value is 'red'
@@ -7,7 +7,7 @@ export const ThemeContext = React.createContext('red')
 
 function App() {
 
-  const [style, setStyle] = useState('red')
+  const [style, setStyle] = useState('green')
 
   return (
     <ThemeContext.Provider value={{backgroundColor: style}}>
